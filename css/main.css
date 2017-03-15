@@ -2,27 +2,7 @@
 
 body {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
-	color: #95a5a6;
-	background-color: #F1F1F1;
-	background-size: 150px 150px, 150px 150px, 20px 20px, 20px 20px ;
-	background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
-	background-image: -webkit-linear-gradient(white 2px, transparent 2px),
-	                  -webkit-linear-gradient(0, white 2px, transparent 2px),
-	                  -webkit-linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
-	                  -webkit-linear-gradient(0, rgba(255,255,255,.3) 1px, transparent 1px);
-	background-image: -moz-linear-gradient(white 2px, transparent 2px),
-	                  -moz-linear-gradient(0, white 2px, transparent 2px),
-	                  -moz-linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
-	                  -moz-linear-gradient(0, rgba(255,255,255,.3) 1px, transparent 1px);
-	background-image: linear-gradient(white 2px, transparent 2px),
-	                  linear-gradient(90deg, white 2px, transparent 2px),
-	                  linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
-	                  linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
-	-pie-background: linear-gradient(white 2px, transparent 2px) -2px -2px / 100px,
-	                 linear-gradient(90deg, white 2px, transparent 2px) -2px -2px / 100px,
-	                 linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px) -1px -1px / 20px,
-	                 linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px) -1px -1px / 20px,
-	                 #269;
+	color: #eee;
 }
 
 /* Header */
@@ -38,11 +18,7 @@ header {
 	color: #2c3e50;
 	text-transform: uppercase;
 	font-size: 50px;
-	padding-left: 69px;
 	font-weight: 800;
-	-ms-transform: rotate(-4deg); /* IE 9 */
-    -webkit-transform: rotate(-4deg;); /* Chrome, Safari, Opera */
-    transform: rotate(-4deg);
     padding: 10px;
     text-shadow: 2px 1px 3px rgba(150, 150, 150, 1);
 }
@@ -60,66 +36,14 @@ nav ul li a:hover {
 	transition: color 0.5s ease-in-out;
 }
 
-/* Welcome Section */
+/* Footer */
 
-#welcome-title {
-	color: #2c3e50;
-	font-size: 50px;
-	font-family: 'Yanone Kaffeesatz', sans-serif;
-	text-shadow: 1px 2px 2px rgba(150, 150, 150, 1);
+footer ul li a {
+	color: #95a5a6;
 }
 
-#welcome-title .line-one {
-	font-family: 'Lato', sans-serif;
-	text-shadow: 1px 2px 2px rgba(150, 150, 150, 1);
+footer ul li a:hover {
+	color: #95a5a6;
+	text-decoration: none;
 }
 
-#welcome-title .line-two {
-    font-family: 'Baloo Bhaina', cursive;
-    line-height: 1px;
-    display: -webkit-box;
-    transform: rotate(-2deg);
-    font-size: 48px;
-    color: #34495e;
-    text-shadow: 1px 2px 2px rgba(150, 150, 150, 1);
-    padding-top: 10px;
-}
-
-#welcome-title .line-three {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    text-shadow: 1px 2px 2px rgba(150, 150, 150, 1);
-    display: -webkit-box;
-    line-height: 0px;
-    letter-spacing: -2px;
-}
-
-/* Latest Project */
-
-#project-new {
-	background-image: url(http://steven.dev/wp-content/uploads/2017/03/b1276578876996b09e840659d7f6e2e9.jpg);
-    height: 250px;
-    background-position: center;
-    background-size: cover;
-}
-
-#project-wrap {
-	background-color: #fff;
-    padding: 10px;
-    border: 1px solid #333;
-    transform: rotate(4deg);
-    box-shadow: 5px 4px 8px 1px rgba(150, 150, 150, 1);
-}
-
-#latest-work-title {
-	color: #2c3e50;
-}
-
-/* Display Blogs */
-
-.blog-post h3 {
-	font-size: 24px;
-	line-height: 5px;
-	text-align: left;
-	text-transform: capitalize;
-	font-weight: bold;
-}
